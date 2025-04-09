@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(143, 160, 167, 0.384);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+
+  .left strong {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espaço entre a imagem e o texto */
+  }
+  
+  .logo-text {
+    font-size: 22px;
+  }
+  
+  .navbar .left {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgba(44, 41, 41, 0.582);
+    font-weight: 300;
+  }
+  
+  .navbar .button {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar .button:hover {
+    background-color: #ddd;
+  }
+  
